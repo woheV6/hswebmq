@@ -1,0 +1,22 @@
+{
+  "name": "hswebmq",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildCJS": "  rollup --config rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "stompjs": "^2.3.3"
+  },
+  "dependencies": {
+    "rollup-plugin-commonjs": "^10.0.2"
+  }
+}
